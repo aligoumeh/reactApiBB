@@ -1,4 +1,6 @@
 import React from 'react'
+import CharacterItem from "./CharacterItem"
+import Spinner from "./Spinner"
 
 const Characters = ({ items, isLoading }) => {
     return isLoading ? (
